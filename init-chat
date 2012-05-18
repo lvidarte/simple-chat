@@ -3,7 +3,7 @@
 # npm install -g forever
 
 set -e
-PATH=~/node/0.6.9/bin:/bin:/usr/bin:/sbin:/usr/sbin
+PATH=~/node/0.6.10/bin:/bin:/usr/bin:/sbin:/usr/sbin
 DAEMON=app.js
 case "$1" in
 	start) forever start $DAEMON ;;
