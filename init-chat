@@ -4,7 +4,7 @@
 
 set -e
 PATH=~/node/0.6.10/bin:/bin:/usr/bin:/sbin:/usr/sbin
-DAEMON=app.js
+DAEMON=/home/xleo/src/lvidarte/simple-chat/app.js
 case "$1" in
 	start) forever start $DAEMON ;;
 	stop) forever stop $DAEMON ;;
